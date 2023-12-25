@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-behavior: 100px;
+}
+
+
+body{
+    background: rgb(25,30,41);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.logo_img{
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.navLink{
+    margin: 20px;
+    list-style: none;
+    display: flex;
+}
+
+.link{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.link:hover{
+    background-color: #01C38D;
+    -webkit-box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+    -moz-box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+    box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+}
+
+
+.home, #about, #skill, #project{
+    background-color: #132d46;
+    margin: 20px;
+    border-radius: 20px;
+    min-height: 620px;
+    -webkit-box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+    -moz-box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+    box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text{
+    font-size: 90px;
+    color: white;
+}
+
+.name{
+    color: #01C38D;
+    text-decoration: underline;
+}
+
+.sub{
+    font-size: 30px;
+    color: #9599a2;
+}
+
+.buttons{
+    margin-top: 40px;
+}
+.btn1{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    background: #01C38D;
+    color: white;
+}
+
+.btn1:hover{
+    -webkit-box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+    -moz-box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+    box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+}
+
+#about{
+    margin-top: 40px;   
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+    -moz-box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+    box-shadow: 0px 0px 55px 0px rgba(1,195,141,1);
+}
+
+.a_text{
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.heading{
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #132d46;
+}
+
+.context_1{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+.proImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.img1{
+    border-radius: 20px;
+    height: 500px;
+
+}
+
+
+
+
+.header{
+    width: 100%;
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cards{
+    width: 80%;
+    margin: 30px;
+    margin-left: 90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+
+}
+
+.card{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.bar{
+    height: 20px;
+    width: 100% ;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    box-shadow: -2px 12px 62px -5px rgba(133,226,152,0.65) inset;
+-webkit-box-shadow: -2px 12px 62px -5px rgba(133,226,152,0.65) inset;
+-moz-box-shadow: -2px 12px 62px -5px rgba(133,226,152,0.65) inset;
+}
+
+.css, .html, .js, .python, .react{
+    height: 20px;
+    background: #01C38D;
+    border-radius: 20px;
+}
+
+.css{width: 90%;}
+.html{width: 90%;}
+.js{width: 70%;}
+.python{width: 60%;}
+.react{width: 50%;}
